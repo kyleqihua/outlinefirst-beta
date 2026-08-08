@@ -2,13 +2,15 @@
 
 Last updated: 2026-08-08
 
-watchbrief processes video captions only when the user asks it to create a
-brief.
+watchbrief processes video captions automatically while its panel is visible
+on a supported YouTube video. Hiding the panel stops new processing.
 
 ## Data flow
 
-1. The extension reads the active video's available captions from YouTube.
-2. It sends the caption text and timestamps to the watchbrief Cloudflare Worker.
+1. The extension reads the active video's title, description, and available
+   captions from YouTube while the panel is visible.
+2. It sends the title, description, caption text, and timestamps to the
+   watchbrief Cloudflare Worker.
 3. The Worker sends that content to DeepSeek to generate a structured brief.
 4. The extension validates the returned timestamps and stores the brief in
    Chrome local storage so the same video can reopen faster.
