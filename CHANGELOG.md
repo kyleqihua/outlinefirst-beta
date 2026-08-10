@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.1.3-beta
+
+### Fixed
+
+- The Chrome Web Store build now takes priority when an older unpacked beta is still
+  installed.
+- Caption and brief work pauses while the panel or YouTube tab is hidden.
+- Temporary caption, network, and service failures recover automatically.
+- Stale requests are cancelled during navigation, and stalled streams no longer load
+  forever.
+- Caption fallback and progressive brief rendering start sooner.
+- Loading, error, and panel lifecycle transitions stay visually stable.
+
 ## 0.1.2-beta.3
 
 ### Fixed

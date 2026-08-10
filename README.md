@@ -16,7 +16,7 @@ The simplest installation is the
 For manual beta testing:
 
 1. Open the
-   [0.1.2 beta 3 release](https://github.com/kyleqihua/watchbrief-beta/releases/tag/v0.1.2-beta.3).
+   [0.1.3 beta release](https://github.com/kyleqihua/watchbrief-beta/releases/tag/v0.1.3-beta).
 2. Download `watchbrief.zip` and `watchbrief.zip.sha256`.
 3. Unzip `watchbrief.zip`.
 4. Open `chrome://extensions` in Chrome.
