@@ -10,8 +10,13 @@ the product and licensing model are still being decided.
 
 ## Install
 
+The simplest installation is the
+[Chrome Web Store listing](https://chromewebstore.google.com/detail/watchbrief/ilddhlijhnnohnhnnlfildkfnfcpockj).
+
+For manual beta testing:
+
 1. Open the
-   [0.1.1 beta 2 release](https://github.com/kyleqihua/watchbrief-beta/releases/tag/v0.1.1-beta.2).
+   [0.1.2 beta 3 release](https://github.com/kyleqihua/watchbrief-beta/releases/tag/v0.1.2-beta.3).
 2. Download `watchbrief.zip` and `watchbrief.zip.sha256`.
 3. Unzip `watchbrief.zip`.
 4. Open `chrome://extensions` in Chrome.
@@ -20,7 +25,8 @@ the product and licensing model are still being decided.
 7. Open a supported YouTube video. While the panel is visible, watchbrief
    automatically generates the brief.
 
-Chrome does not automatically update unpacked extensions. For a later beta,
+Chrome automatically updates the Web Store version. It does not automatically
+update unpacked extensions. For a later manual beta,
 replace the unzipped folder with the new release and choose **Reload** on the
 extension card.
 

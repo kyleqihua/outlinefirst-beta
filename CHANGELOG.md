@@ -1,8 +1,17 @@
 # Changelog
 
+## 0.1.2-beta.3
+
+### Fixed
+
+- The panel now appears immediately when watchbrief is installed while a YouTube tab is already
+  open.
+- The extension stays ready when YouTube navigates from its home page to a video without a full
+  page reload.
+
 ## 0.1.1-beta.2
 
-The current installable watchbrief beta.
+The first bundled and minified watchbrief beta.
 
 ### Included
 
