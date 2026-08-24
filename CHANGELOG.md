@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.4-beta
+
+### Changed
+
+- Renamed the user-facing product from watchbrief to OutlineFirst.
+- Renamed the manual installation package and public distribution assets.
+- Preserved internal runtime identifiers, storage keys, and the Worker endpoint for compatibility.
+
 ## 0.1.3-beta
 
 ### Fixed

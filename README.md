@@ -1,6 +1,6 @@
-# watchbrief beta
+# OutlineFirst beta
 
-watchbrief turns a supported YouTube video's captions into a concise, clickable
+OutlineFirst turns a supported YouTube video's captions into a concise, clickable
 brief.
 
 This repository is the public beta distribution channel. It contains the
@@ -11,18 +11,18 @@ the product and licensing model are still being decided.
 ## Install
 
 The simplest installation is the
-[Chrome Web Store listing](https://chromewebstore.google.com/detail/watchbrief/ilddhlijhnnohnhnnlfildkfnfcpockj).
+[Chrome Web Store listing](https://chromewebstore.google.com/detail/outlinefirst/ilddhlijhnnohnhnnlfildkfnfcpockj).
 
 For manual beta testing:
 
 1. Open the
-   [0.1.3 beta release](https://github.com/kyleqihua/watchbrief-beta/releases/tag/v0.1.3-beta).
-2. Download `watchbrief.zip` and `watchbrief.zip.sha256`.
-3. Unzip `watchbrief.zip`.
+   [0.1.4 beta release](https://github.com/kyleqihua/outlinefirst-beta/releases/tag/v0.1.4-beta).
+2. Download `outlinefirst.zip` and `outlinefirst.zip.sha256`.
+3. Unzip `outlinefirst.zip`.
 4. Open `chrome://extensions` in Chrome.
 5. Turn on **Developer mode**.
-6. Choose **Load unpacked** and select the unzipped `watchbrief` folder.
-7. Open a supported YouTube video. While the panel is visible, watchbrief
+6. Choose **Load unpacked** and select the unzipped `outlinefirst` folder.
+7. Open a supported YouTube video. While the panel is visible, OutlineFirst
    automatically generates the brief.
 
 Chrome automatically updates the Web Store version. It does not automatically
@@ -35,15 +35,15 @@ extension card.
 On macOS:
 
 ```sh
-shasum -a 256 -c watchbrief.zip.sha256
+shasum -a 256 -c outlinefirst.zip.sha256
 ```
 
-The command should print `watchbrief.zip: OK`.
+The command should print `outlinefirst.zip: OK`.
 
 ## Privacy
 
 While the panel is visible, the video's title, description, captions, and
-timestamps are sent through the watchbrief Cloudflare Worker to DeepSeek.
+timestamps are sent through the OutlineFirst Cloudflare Worker to DeepSeek.
 Hiding the panel stops new caption and brief processing. Do not use the beta
 for private or confidential videos.
 
